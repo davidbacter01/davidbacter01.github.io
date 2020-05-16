@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Flip Cards</title>
+</head>
+<body>
+    <div id="container">
+        <div id="card" class="card-frame">
+            <div id="front" class="card-front card-side-format">
+                <h1 id="question">Lorem, ipsum dolor.</h1>
+                <p id="question-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque nihil architecto optio repellat unde!</p>
+                <button onclick="flip()">Vezi raspuns!</button>
+            </div>
+            <div id="back" class="card-back card-side-format">
+                <h3 id="answer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, aut.</h3>
+                <div>
+                    <button onclick="flip()">Revezi intrebarea!</button>
+                    <button onclick="next()">Urmatorul card!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
